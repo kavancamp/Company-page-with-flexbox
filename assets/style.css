@@ -1,15 +1,26 @@
+
+body {
+    margin: 0;
+    color: white; 
+    background-color: gray;
+}
 .container {
     font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
-    background-color: gray;
 }
-.banner {
-    background-image: url("./images/engine.jpg");
-    width: 100%;
+.header {
+    background-image: url("./images/ExProLogo.jpeg");
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
 .navbar{
-    display: inline-block;
+
+  
+}
+a{
+    text-decoration: none;
+    color: white;
 }
