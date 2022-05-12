@@ -1,0 +1,9 @@
+body {
+    text-size: 16px;
+    display: flex;
+    flex-direction: inline;
+}
+.banner {
+    background-image: url("./images/ExProLogo.jpeg");
+    width: 100%;
+}
