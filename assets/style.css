@@ -11,30 +11,25 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.background {
+.box1 {
+    text-align: end; 
+    font-size: 34px;
+    padding-right: 15px;
+}
+ 
+header {
     background-image: url("./images/ExProLogo.jpeg");
     background-size: cover;
-    height: 350px;
-    width: 100%;
-}
-
-.moto {
-    justify-content: center;
-}
-nav{
-    height: 86px;
-    display: flex;
-    background-color: rgb(29, 28, 28);
-    justify-content: space-around;
     align-items: center;
+    height: 450px;
+    width: 100%;
+    padding-right: 15px;
 }
-
-a{
-    text-decoration: none;
-    
+.moto {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
 }
-
-
 
 footer {
     text-align: center;
