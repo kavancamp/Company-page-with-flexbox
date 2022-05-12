@@ -1,8 +1,9 @@
-
 body {
     margin: 0;
-    color: white; 
     background-color: gray;
+} 
+* {
+    color: white;
 }
 .container {
     font-size: 16px;
@@ -10,17 +11,27 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.header {
+.background {
     background-image: url("./images/ExProLogo.jpeg");
     background-size: cover;
-    background-position: left center;
     background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
 }
-.navbar{
-
-  
+.moto {
+    justify-content: right;
+}
+nav{
+    display: flex;
+     justify-content: center;
+     background-color: rgb(29, 28, 28);
 }
 a{
     text-decoration: none;
-    color: white;
+}
+
+
+
+footer {
+    text-align: center;
 }
