@@ -17,23 +17,21 @@ body {
     height: 350px;
     width: 100%;
 }
-@media only screen and (max-width: 1179px)  {
-    header {
-        width: 100%;
-    }
-}
+
 .moto {
     justify-content: center;
 }
 nav{
+    height: 86px;
     display: flex;
-    justify-content: center;
     background-color: rgb(29, 28, 28);
     justify-content: space-around;
+    align-items: center;
 }
+
 a{
     text-decoration: none;
-   
+    
 }
 
 
