@@ -1,10 +1,15 @@
-body {
+.container {
     font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+    background-color: gray;
 }
 .banner {
-    background-image: url("./images/ExProLogo.jpeg");
+    background-image: url("./images/engine.jpg");
     width: 100%;
+}
+.navbar{
+    display: inline-block;
 }
