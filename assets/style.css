@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: gray;
 } 
 * {
@@ -17,19 +17,23 @@ body {
     height: 350px;
     width: 100%;
 }
-@media only screen and (width: 1179px) and {
-    
+@media only screen and (max-width: 1179px)  {
+    header {
+        width: 100%;
+    }
 }
 .moto {
-    justify-content: right;
+    justify-content: center;
 }
 nav{
     display: flex;
-     justify-content: center;
-     background-color: rgb(29, 28, 28);
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
+   
 }
 
 
