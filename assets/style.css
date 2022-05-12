@@ -30,8 +30,12 @@ header {
     font-size: 34px;
     font-weight: bold;
 }
-
+.about {
+    background-image: url(./images/mufflerguy.jpeg);
+    height: 200px;
+}
 footer {
     text-align: center;
     height: 60px;
+    width: 80%;
 }
